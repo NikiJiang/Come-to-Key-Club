@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa:wght@300..700&family=Rubik+Scribble&display=swap');
+body{
+  background-image: linear-gradient(#173679, #0B1E38);
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-family: Rubik Scribble;
+  font-size: 40px;
+}
+h2{
+  color: gold;
+  font-family: Comfortaa;
+  font-size: 30px;
+}
+p{
+  color: white;
+  font-family: Abel;
+  font-size: 20px;
+  margin-right: 50px;
+    margin-left: 50px;
+}
+button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right:30px;
+  padding-left:30px;
+  background-color: gold;
+  border-radius: 7px; /*making the borders rounder*/
+  font-family: Abel;
+  font-size: 18px;
+}
+h3{
+  color: gold;
+  font-family: Comfortaa;
+  font-size: 15px;
+}
+.info{
+  color: white;
+  font-family: Abel;
+  font-size: 13px;
+}

@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Comfortaa:wght@300..700&family=Rubik+Scribble&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(#173679, #0B1E38);
+}
+
+table, th, td {
+  border:1px solid black;
+  border-color: gold;
+  color: white;
+  font-family: Abel;
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right:30px;
+  padding-left:30px;
+  background-color: gold;
+  border-radius: 7px; /*making the borders rounder*/
+  font-family: Abel;
+  font-size: 18px;
+}
+
+h1{
+  color: white;
+  font-family: Rubik Scribble;
+  font-size: 40px;
+}
+h3{
+  color: gold;
+  font-family: Abel;
+  font-size: 25px;
+}
+h2{
+  color: white;
+  font-family: Comfortaa;
+  font-size: 23px;
+}
+.name{
+   color: gold;
+  font-family: Abel;
+  font-size: 12px;
+}
+
+img {
+  width: 320px;
+  height: 310px;
+  border: 4px;
+  border-style: solid;
+  border-color: gold;
+  object-fit: cover;
+  margin: 20px; 
+  border-radius: 5px;
+  box-shadow: 10px 10px  darkblue;
+}
+
+.container {
+  display:flex; 
+  justify-content: space-around; 
+  align-items: row;
+  flex-wrap: wrap;  
+}
